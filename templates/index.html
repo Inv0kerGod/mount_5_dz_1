@@ -1,0 +1,1071 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>Happy Paws - Pet One Page HTML5 Theme</title>
+      <!-- Bootstrap Core CSS -->
+      <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css">
+      <!-- Icon fonts -->
+      <link href="{% static 'fonts/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+      <link href="{% static 'fonts/flaticons/flaticon.css' %}" rel="stylesheet" type="text/css">
+      <!-- Google fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Nunito:400,700%7CBree+Serif&display=swap' rel='stylesheet' type='text/css'>
+      <!-- Theme CSS -->
+      <link href="{% static 'css/style.css' %}" rel="stylesheet">
+      <!-- Color Style CSS -->
+      <link href="styles/yellowpaws.css" rel="stylesheet">
+      <!-- Prefix free CSS -->
+      <script src="{%static 'js/prefixfree.js' %}"></script>
+      <!-- plugins -->
+      <link rel="stylesheet" href="{% static 'css/plugins.css' %}">
+      <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="57x57" href="{% static '/apple-touch-icon-57x57.png' %}">
+      <link rel="apple-touch-icon" sizes="72x72" href="{% static '/apple-touch-icon-72x72.png' %}">
+      <link rel="apple-touch-icon" sizes="114x114" href="{% static '/apple-touch-icon-114x114.png' %}">
+      <link rel="apple-touch-icon" sizes="144x144" href="{% static '/apple-touch-icon-144x144.png' %}">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <link rel="icon" href="favicon.ico" type="image/x-icon">
+	    <!-- Switcher Only -->
+	<link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all" />
+
+	<!--Alternate CSS -->
+
+    <link rel="alternate stylesheet" type="text/css" href="styles/bluesky.css" title="bluesky" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/redpet.css" title="redpet" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/greenfun.css" title="greenfun" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/cleanbrown.css" title="cleanbrown" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/yellowpaws.css" title="yellowpaws" media="all" />
+
+   </head>
+   <body id="page-top" data-bs-spy="scroll" data-bs-target=".navbar-nav" data-bs-offset="5">
+    <!-- Start Switcher -->
+		<div class="demo_changer">
+			<div class="demo-icon">
+            	<i class="fa fa-cog fa-spin fa-2x"></i>
+            </div><!-- end opener icon -->
+            <div class="form_holder">
+            	<div class="row">                	
+                	<div class="col-md-12 text-center">
+                		<div class="predefined_styles"> 							
+                            <h4>Choose a Color Skin</h4>
+                    		<!-- MODULE #3 -->
+							<a href="bluesky" class="styleswitch"><img src="{%static 'switcher/images/icons/blue.png' %}" alt=""></a>     
+							<a href="redpet" class="styleswitch"><img src="{%static 'switcher/images/icons/red.png' %}" alt=""></a>     
+							<a href="greenfun" class="styleswitch"><img src="{%static 'switcher/images/icons/green.png' %}" alt=""></a>     
+							<a href="cleanbrown"  class="styleswitch"><img src="{%static 'switcher/images/icons/brown.png' %}" alt=""></a>       
+							<a href="yellowpaws"  class="styleswitch"><img src="{%static 'switcher/images/icons/yellow.png' %}" alt=""></a>       
+                    		<!-- END MODULE #3 -->
+                        </div><!-- end predefined_styles -->
+                	</div><!-- end col -->                	
+                </div><!-- end row -->
+            </div><!-- end form_holder -->
+        </div><!-- end demo_changer -->
+    <!-- End Switcher -->	
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+         </div>
+      </div>
+      <!-- navbar starts -->
+      <nav class="navbar navbar-expand-xl navbar-custom fixed-top p-0">
+         <div class="container-fluid p-0 d-none d-lg-block">
+            <!-- top bar starts -->
+            <div class="top-bar">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-8">
+                        <!-- Start Contact Info -->
+                        <ul class="contact-details">
+                           <li><i class="fa fa-map-marker"></i>Pet Street - Dog City</li>
+                           <li><i class="fa fa-envelope"></i><a href="mailto:youremailaddress">petshop@site.com</a></li>
+                           <li><i class="fa fa-phone"></i>+1 (123) 456 7890</li>
+                        </ul>
+                        <!-- End Contact Info -->
+                     </div>
+                     <div class="col-md-4">
+                        <!-- Start Social Links -->
+                        <ul class="social-list">
+                           <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a  title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                           <li><a  title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                        <!-- End Social Links -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Top bar -->
+         <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand page-scroll" href="#page-top">
+               <!--Font Icon logo and text -->
+               <span class="flaticon-animals-allowed"></span>Happy Paws
+            </a>
+            <div class="justify-content-lg-end">
+               <!-- hamburger menu -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse " id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link"  href="#slider-top">Home</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#services">Services</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#prices">Prices</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#gallery">Gallery</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#adoption">Adoption</a></li>
+                  <li class="nav-item"><a class="nav-link"  href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Full Page Image Background Slider -->
+      <div id="slider-top" class="slider-container">
+         <!-- Controls -->
+         <div class="slider-control left inactive"></div>
+         <div class="slider-control right"></div>
+         <ul class="slider-pagi"></ul>
+         <!--Slider -->
+         <div class="slider">
+            <!-- Slide 1 -->
+            {% for base in base %}
+            <div class="slide slide-0 active">
+               <div class="slide__bg"></div>
+               <div class="slide__content">
+                  <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                     <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                  </svg>
+                  <div class="slide__text">
+                     <h1 class="slide__text-heading">{{ base.title }}</h1>
+                     <div class="d-none d-lg-block">
+                        <p class="lead">{{ base.description }}</p>
+                        <div class="page-scroll">
+                           <a href="#services" class="btn btn-primary">our services</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            {% endfor %}
+         </div>
+      </div>
+      <!--/ Slider ends -->
+      <!-- Section services -->
+      <section id="services" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section heading -->
+            <div class="section-heading">
+               <h2>Наши услуги</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <!-- item 1-->
+               {% for service in service%}
+               <div class="col-lg-4 ps-3 pe-3 wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="img-wrapper">
+                     <img src="{{service.photo.url}}" alt="" class="img-fluid">
+                  </div>
+                  <h4>{{service.title }}</h4>
+                  <p class="margin">{{service.description}}</p>
+               </div>
+               {% endfor%}
+               <!-- /col-->
+               <!-- item 2-->
+               
+               <!-- /col-->
+            </div>
+         </div>
+      </section>
+      <!-- /Section ends -->	  
+      <!-- Section Stats -->	
+      <section id="stats" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section Heading -->	
+            <div class="section-heading">
+               <h2>Our Stats</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row text-center wow fadeInUp" data-wow-delay="0.2s">
+               <div class="col-xl-3 res-margin">
+                  <!-- Number 1 -->
+                  <div class="numscroller" data-slno='1' data-min='0' data-max='180' data-delay='20' data-increment="19">0</div>
+                  <hr>
+                  <h5>Customers</h5>
+               </div>
+               <div class="col-xl-3 res-margin">
+                  <!-- Number 2 -->
+                  <div class="numscroller" data-slno='1' data-min='0' data-max='16' data-delay='10' data-increment="9">0</div>
+                  <hr>
+                  <h5>Professionals</h5>
+               </div>
+               <div class="col-xl-3 res-margin">
+                  <!-- Number 3 -->
+                  <div class="numscroller" data-slno='1' data-min='0' data-max='67' data-delay='20' data-increment="19">0</div>
+                  <hr>
+                  <h5>Pets Hosted</h5>
+               </div>
+               <div class="col-xl-3">
+                  <!-- Number 4 -->
+                  <div class="numscroller" data-slno='1' data-min='0' data-max='50' data-delay='10' data-increment="9">0</div>
+                  <hr>
+                  <h5>Products</h5>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Section Ends-->
+      <!-- Section About -->	
+      <section id="about" class="home-section">
+         <div class="col-xl-8 offset-xl-2">
+            <!-- Section Heading -->	
+            <div class="section-heading">
+               <h2>О нас</h2>
+               <div class="hr"></div>
+            </div>
+            <div class="container h-10">
+               <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                     <button class="nav-link active" id="pills-1-tab" data-bs-toggle="pill" data-bs-target="#pills-1" type="button" role="tab" aria-selected="true">Наши клиники</button>
+                  </li>
+               </ul>
+               <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                     <div class="row">
+                        <div class="col-lg-7 res-margin wow fadeInRight my-auto" data-wow-delay="0.2s">
+                           <h3>Мы позаботимся о вашем лучшем друге</h3>
+                           <p>Аликвам эрат проходит фазу волатильности, в течение которой человек умирает, но не умирает, аликвам эрос накапливает информацию о своей жизни.</p>
+                           <p class="res-margin">
+                              Обитает в виде лобортиса или фазеллуса с ультратонкой массой, похожего на лактуса орнаре. Аликвам эрат волютпат, который является частью тела, но не является метусом, аликвам эрос накапливает моллис, и его жизненная сила проявляется в виде пеллентеска, турписа, лектуса, размещенного в ультрасах.
+                           </p>
+                        </div>
+                        <div class="col-lg-5 text-center wow fadeInLeft" data-wow-delay="0.2s">
+                           <img src="{% static 'img/about.png' %}" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- / row -->
+                     <div class="row">
+                        <div class="col-xs-12 col-md-4 col-lg-4">
+                           <div class="box">
+                              <div class="icon p-3">
+                                 <div class="image"><span class="flaticon-pet22"></span></div>
+                                 <h5>Высокотехнологичная клиника</h5>
+                                 <p>Приостановить работу над "элитой", чтобы сохранить прежнюю власть над душой Долорес.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 col-lg-4">
+                           <div class="box">
+                              <div class="icon p-3">
+                                 <div class="image"><span class="flaticon-dog65"></span></div>
+                                 <h5>Потрясающая поддержка</h5>
+                                 <p>Приостановить работу над "элитой", чтобы сохранить прежнюю власть над душой Долорес.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4 col-lg-4">
+                           <div class="box p-3">
+                              <div class="icon">
+                                 <div class="image"><span class="flaticon-pets19"></span></div>
+                                 <h5>Лауреат премии</h5>
+                                 <p>Приостановить работу над "элитой", чтобы сохранить прежнюю власть над душой Долорес.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- / row -->
+                  </div>
+                  <!-- / tab 1 ends -->
+                  <div class="tab-pane" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                     <div class="row">
+                        <div class="col-lg-6 res-margin my-auto">
+                           <h3>Наша философия</h3>
+                           <p class="res-margin">Пеллентесский турпис лектус, располагающийся на ультрасовременной территории, создает какую-то непреодолимую преграду. Обитает в тропических лесах, таких как Фазеллус, предгрозовая масса, лактус или эллен теске, а также в тропических лесах, где есть несколько мелких моллюсков. </p>
+                           <p>Император, между прочим, никогда не встречался с Августом великим и Морисом крайними, вестибулум или, например, виверра элита. Аликвам эрат волутпат. Фазеллус, как и все остальные животные, живет без метуса, и эрос накапливает моллис, чтобы узнать его биографию.
+                        </div>
+                        <div class="col-lg-6">
+                           <img src="{% static 'img/gallery7.jpg' %}" alt="" class="img-fluid">
+                        </div>
+                     </div>
+                     <!-- / row -->
+                  </div>
+                  <!-- / tab 2 ends -->
+                  <div class="tab-pane" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                     <h3 class="text-center">Познакомьтесь с нашей командой</h3>
+                     <!-- Item 1 -->
+                     <div class="row team text-center">
+                        <div class="col-lg-3">
+                           <div class="img-wrapper">
+                              <img src="{% static 'img/team1.jpg' %}" alt="" class="img-fluid">
+                           </div>
+                           <!-- Caption -->
+                           <div class="caption-team">
+                              <h5>Луане Сильва</h5>
+                              <span>Ветеринар</span>
+                              <p>Пеллентесский терпис-лектус, расположенный на краю света, находящийся в какой-то имперской дали.</p>
+                           </div>
+                           <!-- Social icons -->
+                           <div class="social-media margin">
+                              <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                              <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                              <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title=""><i class="fa fa-pinterest"></i></a>
+                              <a href="#" title=""><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="col-lg-3">
+                           <div class="img-wrapper">
+                              <img src="{% static 'img/team2.jpg' %}" alt="" class="img-fluid">
+                           </div>
+                           <!-- Caption -->
+                           <div class="caption-team">
+                              <h5>Джон Суэн</h5>
+                              <span>Смотритель</span>
+                              <p>Пеллентесский терпис-лектус, расположенный на краю света, находящийся в какой-то имперской дали.</p>
+                           </div>
+                           <!-- Social icons -->
+                           <div class="social-media margin">
+                              <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                              <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                              <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title=""><i class="fa fa-pinterest"></i></a>
+                              <a href="#" title=""><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="col-lg-3">
+                           <div class="img-wrapper">
+                              <img src="{% static 'img/team3.jpg' %}" alt="" class="img-fluid">
+                           </div>
+                           <!-- Caption -->
+                           <div class="caption-team">
+                              <h5>Нэнси Мэй</h5>
+                              <span>Специалист</span>
+                              <p>Пеллентесский турпис-лектус, расположенный на самом краю, где нет ничего, что могло бы помешать ему..</p>
+                           </div>
+                           <!-- Social icons -->
+                           <div class="social-media margin">
+                              <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                              <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                              <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title=""><i class="fa fa-pinterest"></i></a>
+                              <a href="#" title=""><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="col-lg-3">
+                           <div class="img-wrapper">
+                              <img src="{% static 'img/team4.jpg' %}" alt="" class="img-fluid">
+                           </div>
+                           <!-- Caption -->
+                           <div class="caption-team">
+                              <h5>Амели Плин</h5>
+                              <span>Ветеринар</span>
+                              <p>Пеллентесский турпис-лектус, расположенный на самом краю, где нет ничего, что могло бы помешать ему..</p>
+                           </div>
+                           <!-- Social icons -->
+                           <div class="social-media">
+                              <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                              <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                              <a href="#" title=""><i class="fa fa-linkedin"></i></a>
+                              <a href="#" title=""><i class="fa fa-pinterest"></i></a>
+                              <a href="#" title=""><i class="fa fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /row-->
+                  </div>
+                  <!-- / tab 3 ends -->
+               </div>
+               <!-- / tab-content -->
+            </div>
+            <!-- /container-->
+         </div>
+         <!-- /col-xl-->
+      </section>
+      <!-- Section ends-->
+      <!-- Section Testimonials -->
+      <section id="testimonials" class="home-section">
+         <div class="col-lg-6 offset-lg-3">
+            <!-- Section Heading -->	
+            <div class="section-heading">
+               <h2>Что говорят наши клиенты</h2>
+               <div class="hr"></div>
+            </div>
+            <div class="container">
+               <div class="row wow fadeInLeft" data-wow-delay="0.2s">
+                  <div class="slider-1">
+                     <!-- testimonial 1-->
+                     <div class="col-md-10 mx-auto d-block">
+                        <blockquote>
+                           <div class="col-md-2 offset-md-5 col-sm-12 col-xs-12 text-center">
+                              <!-- testimonial image-->
+                              <img src="{% static 'img/testimonial1.jpg' %}" alt="" class="res-margin img-fluid rounded-circle">
+                           </div>
+                           <div class="col-md-10 offset-md-1 quote-test">
+                              <!-- quote -->
+                              <p>Во-первых, это временная оптимизация трудовых усилий, поскольку они связаны с мольбами о помощи, а во-вторых, анимизм - это элемент вечной власти и меценатства, в котором эрос не имеет ничего общего с якулисом..</p>
+                              <small>Джоанна Вилкен, телезвезда</small>
+                           </div>
+                        </blockquote>
+                     </div>
+                     <!-- testimonial 2-->
+                     <div class="col-md-10 mx-auto d-block">
+                        <blockquote>
+                           <div class="col-md-2 offset-md-5 col-sm-12 col-xs-12 text-center">
+                              <!-- testimonial image-->
+                              <img src="{% static 'img/testimonial2.jpg' %}" alt="" class="res-margin img-fluid rounded-circle">
+                           </div>
+                           <div class="col-md-10 offset-md-1 quote-test">
+                              <!-- quote -->
+                              <p>Хвалебная молитва для временного избавления от страданий, но для того, чтобы душа была приостановлена до определенного момента. Никто не хочет быть таким, как я, не хочет быть императором и меценатом, но эрос не хочет быть таким, как я..</p>
+                              <small>John Cassady, Astronaut</small>
+                           </div>
+                        </blockquote>
+                     </div>
+                     <!-- testimonial 3-->
+                     <div class="col-md-10 mx-auto d-block">
+                        <blockquote>
+                           <div class="col-md-2 offset-md-5 col-sm-12 col-xs-12 text-center">
+                              <!-- testimonial image-->
+                              <img src="{% static 'img/testimonial3.jpg' %}" alt="" class="res-margin img-fluid rounded-circle">
+                           </div>
+                           <div class="col-md-10 offset-md-1 quote-test">
+                              <!-- quote -->
+                              <p>Трудозатраты, как правило, связаны с мольбами о помощи, но они могут быть приостановлены заранее. Никто не хочет быть таким, как я, не хочет быть императором и меценатом, но эрос не хочет быть таким, как я..</p>
+                              <small>Мария Сильвейра, Модель</small>
+                           </div>
+                        </blockquote>
+                     </div>
+                  </div>
+                  <!--owl testimonials-->
+               </div>
+               <!--/row -->
+            </div>
+            <!--/container-->
+         </div>
+         <!--/col-lg-->
+      </section>
+      <!-- Section Ends -->  
+      <!-- Section Prices -->
+      <section id="prices" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section Heading -->
+            <div class="section-heading">
+               <h2>Наши раценки</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container wow fadeInDown" data-wow-delay="0.2s">
+            <div class="row pricing-tables">
+               <!-- Price table 1-->
+               {%for prises in prises%}
+               <div class="col-xl-3 col-lg-6">
+                  <div class="pricing-table res-margin">
+                     <div class="plan-name">
+                        <h4>{{prises.title}}c</h4>
+                     </div>
+                     <div class="plan-price">
+                        <div class="price-value">Kgs 49<span>.00</span></div>
+                        <div class="interval">за месяц</div>
+                     </div>
+                     <div class="plan-list">
+                        <ul>
+                           <li>2 собака ходить </li>
+                           <li>1 спа</li>
+                           <li>1 бассейн</li>
+                           <li>10 раз питание</li>
+                           <li>бесплатная помощь</li>
+                        </ul>
+                     </div>
+                     <!-- Price button-->
+                     <div class="plan-signup">
+                        <a href="#" class="btn btn-primary">Добавить</a>
+                     </div>
+                  </div>
+               </div>
+               {% endfor %}
+            </div>
+            <!-- /Pricing table ends -->
+         </div>
+         <!--/container -->
+      </section>
+      <!-- Section ends --> 
+      <!-- Section Call to Action -->
+      <section id="call-to-action" class="small-section">
+         <div class="container text-center">
+            <div class="offset-lg-5 col-lg-7 col-sm-12">
+               <h3>Discover our Pet Shop and Services</h3>
+               <p>Contact or learn more about us and make your pet happy in your visit to our Shop and discover all our amazing products and services to make your pet very healthy and active with a lot of energy this winter lorem ipsum ipsuet dolor.
+               </p>
+               <!-- Buttons -->
+               <div class="page-scroll light-btn">
+                  <a class="btn btn-primary wow fadeInLeft" data-wow-delay="0.2s" href="#contact">Contact us</a> 
+                  <a class="btn btn-primary m-left wow fadeInRight" data-wow-delay="0.2s" href="#about">More about us</a>
+               </div>
+            </div>
+         </div>
+         <!-- /container- -->
+      </section>
+      <!-- Section ends -->
+      <!-- Section Gallery -->
+      <section id="gallery" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section heading -->
+            <div class="section-heading">
+               <h2>Наша галлеря</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container wow fadeInDown" data-wow-delay="0.2s">
+            <div class="nav-gallery col-md-12 justify-content-center">
+               <!-- Navigation -->
+               <ul class="list-inline justify-content-center nav type cat">
+                  <li class="active"><a href="#" data-filter="*">Все</a></li>
+                  <li><a href="#" data-filter=".dogcat">коты и собаки</a></li>
+                  <li><a href="#" data-filter=".other"></a></li>
+               </ul>
+            </div>
+            <!-- Gallery -->
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="lightbox">
+                     <!-- Image 1 -->
+                     {% for gallery in gallery %}
+                     <div class="col-xl-4 dogcat">
+                        <div class="portfolio-item">
+                           <div class="gallery-thumb">
+                              <img class="img-fluid" src="{{gallery.all.url}}" alt="">
+                              <span class="overlay-mask"></span>
+                              <a href="{{gallery.dogs_and.url}}" class="link centered" title="You can add caption to pictures.">
+                              <i class="fa fa-expand"></i></a>
+                           </div>
+                        </div>
+                        <div class="portfolio-item">
+                           <div class="gallery-thumb">
+                              <img class="img-fluid" src="{{gallery.dogs_and.url}}" alt="">
+                              <span class="overlay-mask"></span>
+                              <a href="{{gallery.other.url}}" class="link centered" title="You can add caption to pictures.">
+                              <i class="fa fa-expand"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     {% endfor %}
+                  </div>
+                  <!-- /lightbox-->
+               </div>
+               <!-- /col-md-12-->
+            </div>
+            <!-- /row -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- Section ends --> 
+      <!-- Section Offers -->
+      <section id="offers" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section Heading -->
+            <div class="section-heading">
+               <h2>This Month's Offers</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container wow fadeInDown" data-wow-delay="0.2s">
+            <div class="col-lg-10 mx-auto d-block">
+               <div class="row slider-1">
+                  <!-- Offer 1 -->
+                  <div class="offer">
+                     <div class="row ">
+                        <div class="col-lg-3 offset-lg-1">
+                           <!-- Offer image -->
+                        </div>
+                        <!-- Offer description -->
+                        <div class="col-lg-7 my-auto">
+                           <div class="media-body">
+                              <h4>Vet Services: <span class="tag tag-default">20% OFF</span></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                 Quisque mauris augue, lorem tincidunt condimentum vitae uisque mauris augue, lorem ipsum  tincidunt condimentum vitae.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Ends Offer 1 -->
+                  <!-- Offer 2 -->
+                  <div class="offer">
+                     <div class="row">
+                        <div class="col-lg-3 offset-lg-1">
+                           <!-- Offer image -->
+                           <img src="{% static 'img/offer2.png' %}" class="img-fluid res-margin" alt="">
+                        </div>
+                        <!-- Offer description -->
+                        <div class="col-lg-7 my-auto">
+                           <div class="media-body">
+                              <h4>Pet School: <span class="tag tag-default">30% OFF</span></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                 Quisque mauris augue, lorem tincidunt condimentum vitae uisque mauris augue, lorem ipsum  tincidunt condimentum vitae.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Ends Offer 2 -->
+                  <!-- Offer 3 -->
+                  <div class="offer">
+                     <div class="row h-10">
+                        <div class="col-lg-3 offset-lg-1">
+                           <!-- Offer image -->
+                           <img src="{% static 'img/offer3.png' %}" class="img-fluid res-margin" alt="">
+                        </div>
+                        <!-- Offer description -->
+                        <div class="col-lg-7 my-auto">
+                           <div class="media-body">
+                              <h4>Quality Pet Foods: <span class="tag tag-default">40% OFF</span></h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+                                 Quisque mauris augue, lorem tincidunt condimentum vitae uisque mauris augue, lorem ipsum  tincidunt condimentum vitae.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Ends Offer 3 -->					
+               </div>
+               <!--/slider -->
+            </div>
+            <!--/col -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- Section ends -->  
+      <!-- Section Adoption -->
+      <section id="adoption" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section Heading -->
+            <div class="section-heading">
+               <h2>Принятие</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row h-10 wow fadeInDown" data-wow-delay="0.2s">
+               <!-- Image -->
+               <div class="col-lg-4 text-center res-margin">
+                  <img src="{% static 'img/adopt.jpg' %}" class="img-fluid" alt="">
+               </div>
+               <div class="col-lg-8 my-auto">
+                  <!-- Text -->
+                  <h3>Хотите усыновить животное?</h3>
+                  <p>В конце концов, моллис никогда не забудет о том, что произошло, когда я встретил великого Мориса Трисиса, жил и работал в орси, в виверре элит. Все, что происходит на этом этапе, - это то, что мы испытываем, когда не встречаемся, все, что накапливается, - это жизненный путь.</p>
+                  <p>
+                     Аликвам, который постоянно находится в состоянии аффекта, постоянно находится в состоянии аффекта, который не встречается ни с кем, кто накапливает эрос, чтобы узнать его биографию. Пеллентийский терпис-лектус, располагающийся на ультрасовременной территории, где-то рядом. Когда моллюск умирает, он умирает вместе с кем-то другим, а не с кем-то другим, как с великими морскими животными, или, например, с виверрой элитной. Аликвам эрат волютпат фазеллус.
+                  </p>
+               </div>
+            </div>
+            <!--/row-->
+            <div class="row">
+               <div class="col-lg-5">
+                  <!-- Accordion -->
+                  <h4 class="text-center">Часто задаваемые вопросы</h4>
+                  <div class="accordion accordion-flush" id="accordion">
+                     <!-- Accordion 1 -->
+                     <div class="accordion-item">
+                        <p class="accordion-header" id="flush-heading1">
+                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse1" aria-expanded="false" >
+                           Требуется ли регистрация учетной записи?
+                           </button>
+                        </p>
+                        <div id="accordion-collapse1" class="accordion-collapse collapse show" aria-labelledby="flush-heading1" data-bs-parent="#accordion">
+                           <div class="accordion-body">Пеллентийский терпис-лектус, обитающий в отдаленных районах, обитающий в других местах. В конце концов, моллис не перестает быть тем, кто делает все возможное, чтобы стать великим морисом ультрасисом, жить вечно или жить вечно, быть элитой виверры.</div>
+                        </div>
+                     </div>
+                     <!-- Accordion 1 -->
+                     <div class="accordion-item">
+                        <p class="accordion-header" id="flush-heading2">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse2" aria-expanded="false" >
+                           Как мне подать заявку?
+                           </button>
+                        </p>
+                        <div id="accordion-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordion">
+                           <div class="accordion-body">Пеллентийский турпис лектус, обитающий в ультралиции а, обитающий в нибхе. В конце концов, моллис не перестает быть тем, кто делает все возможное, чтобы стать великим морисом ультраси, жить вечно или жить вечно, виверра элита.</div>
+                        </div>
+                     </div>
+                     <!-- Accordion 3 -->
+                     <div class="accordion-item">
+                        <p class="accordion-header" id="flush-heading3">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse3" aria-expanded="false">
+                           Какие документы мне нужны для принятия?
+                           </button>
+                        </p>
+                        <div id="accordion-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordion">
+                           <div class="accordion-body">Пеллентийский турпис лектус, обитающий в ультралиции а, обитающий в нибхе. В конце концов, моллис не перестает быть тем, кто делает все возможное, чтобы стать великим морисом ультраси, жить вечно или жить вечно, виверра элита.</div>
+                        </div>
+                     </div>
+                     <!-- Accordion 4 -->
+                     <div class="accordion-item">
+                        <p class="accordion-header" id="flush-heading4">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse4" aria-expanded="false">
+                           Как правильно выбрать домашнего питомца?
+                           </button>
+                        </p>
+                        <div id="accordion-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordion">
+                           <div class="accordion-body">Пеллентийский терпис-лектус, обитающий в отдаленных районах, обитающий в других местах. В конце концов, моллис не перестает быть тем, кто делает все возможное, чтобы стать великим морисом ультрасисом, жить вечно или жить вечно, быть элитой виверры.</div>
+                        </div>
+                     </div>
+                     <!-- Accordion 5 -->
+                     <div class="accordion-item">
+                        <p class="accordion-header" id="flush-heading5">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse5" aria-expanded="false">
+                           Кастрированы ли животные?
+                           </button>
+                        </p>
+                        <div id="accordion-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordion">
+                           <div class="accordion-body">Пеллентийский терпис-лектус, обитающий в отдаленных районах, обитающий в других местах. В конце концов, моллис не перестает быть тем, кто делает все возможное, чтобы стать великим морисом ультрасисом, жить вечно или жить вечно, быть элитой виверры.</div>
+                        </div>
+                     </div>
+                     <!-- /Accordion 5-->
+                  </div>
+                  <!-- /Accordion ends -->
+               </div>
+               <!--/col-md-5 -->
+               <!-- Adopt a pet -->
+               <div class="col-lg-7">
+                  <h4 class="text-center">Найди нового друга</h4>
+                  {% comment %} {% for animals in animals %} {% endcomment %}
+                  <div class="slider-3">
+                  {% for animals in animals %}
+                     <!-- Animal 1 -->
+                     
+                     <!-- /div -->
+                     <!-- /Animal 1 -->
+                     <!-- Animal 2 -->
+                     
+                     <!-- /div -->
+                     <!-- /Animal 2 -->
+                     <!-- Animal 3 -->
+                    
+                     <!-- /div -->
+                     <!-- /Animal 3 -->
+                     <!-- Animal 4 -->
+                    
+                     <!-- /div -->
+                     <!-- /Animal 4 -->
+                     <!-- Animal 5 -->
+                     
+                     <div>
+                        {% comment %} {% for animals in animals %} {% endcomment %}
+                        <div class="col-md-12 p-3">
+                           {% comment %} {% for animals in animals %} {% endcomment %}
+                           <div class="thumbnail text-center">
+                              <!-- Image -->
+                              <img src="{{animals.image.url}}" class="rounded-circle img-fluid" alt="">
+                              <!-- Name -->
+                              <div class="caption-adoption">
+                                 <h6>Joanne</h6>
+                                 <!-- List -->
+                                 <ul class="list-unstyled">
+                                    <li><strong>пол:</strong> {{animals.gender}}</li>
+                                    <li><strong>Кастрированный: </strong> да</li>
+                                    <li><strong>лет:</strong> 5 лет</li>
+                                 </ul>
+                                 <!-- Buttons -->								  
+                                 <div class="toggle-btn page-scroll text-center">
+                                    <a href="#5" class=" btn btn-primary">More Info</a>
+                                 </div>
+                              </div>
+                           </div>
+                           {% comment %} {% endfor %}  {% endcomment %}
+                           <!-- /thumbnail -->
+                        </div>
+                        {% comment %} {% endfor %}  {% endcomment %}
+                        <!-- /col-md-12 -->
+                     </div>
+                     {% endfor %}
+                     <!-- /div -->
+                     <!-- /Animal 5 --> 
+                     <!-- Animal 6 -->
+                   
+                     <!-- /div -->
+                     <!-- /Animal 6 --> 
+                  {% comment %} {% endfor %} 					  					 					   {% endcomment %}
+                  </div>
+                  {% comment %} {% endfor %} {% endcomment %}
+                  <!-- /owl-adopt -->
+                  <!-- Slide In Panel Animal 1 -->
+                  <div class="cd-panel from-right" id="1">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption1.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Lilica</h3>
+                           <p>Будь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это может привести к тому, что организм начнет восстанавливаться, что облегчит его состояние, в конечном итоге, приведет к моллюскам. Я просто хочу провести инвентаризацию еще раз.</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel -->
+                  <!-- Slide In Panel Animal 2 -->
+                  <div class="cd-panel from-right" id="2">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption2.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Charlie</h3>
+                           <p>Будь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это, по-видимому, помогает избавиться от боли в мышцах, что облегчает их заживление, а затем приводит к моллюскам. Я просто беглец, изобретающий что-то новое..</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel -->		
+                  <!-- Slide In Panel Animal 3 -->
+                  <div class="cd-panel from-right" id="3">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption3.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Lucky</h3>
+                           <p>ъБудь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это, по-видимому, помогает избавиться от боли в мышцах, что облегчает их заживление, а затем приводит к моллюскам. Я просто беглец, изобретающий что-то новое..</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel -->	
+                  <!-- Slide In Panel Animal 4 -->
+                  <div class="cd-panel from-right" id="4">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption4.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Madalene</h3>
+                           <p>Будь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это может привести к тому, что организм начнет восстанавливаться, что облегчит его состояние, а затем приведет к моллюскам. Я просто хочу провести инвентаризацию еще раз.</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel -->		
+                  <!-- Slide In Panel Animal 5 -->
+                  <div class="cd-panel from-right" id="5">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption5.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Joanne</h3>
+                           <p>Будь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это, по-видимому, является причиной того, что у вас болит живот, что облегчает его состояние, прежде всего, из-за моллюсков. Я просто беглец, изобретающий что-то новое..</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel --> 
+                  <!-- Slide In Panel Animal 6 -->
+                  <div class="cd-panel from-right" id="6">
+                     <div class="cd-panel-container">
+                        <div class="cd-panel-content">
+                           <div class="col-md-7 mx-auto d-block">
+                              <img src="{% static 'img/adoption6.jpg' %}" class="img-fluid" alt="">
+                           </div>
+                           <h3 class="text-center">Adopt Cutesy</h3>
+                           <p>Будь осторожен, это означает, что либеро приступает к сладострастию, которое вызывает у тебя чувственное возбуждение, обвиняет тебя в том, что ты виновен в трудах, которые должны быть максимально эффективными, чтобы избежать последствий этого. Это, по-видимому, является причиной того, что у вас болит живот, что облегчает его состояние, прежде всего, из-за моллюсков. Я просто беглец, изобретающий что-то новое..</p>
+                           <div class="page-scroll text-center">
+                              <a href="#contact" class="cd-close btn btn-primary">Усыновите сейчас</a>  <a class="cd-close btn btn-danger m-left"><i class="fa fa-times"></i>Close</a>
+                           </div>
+                        </div>
+                        <!-- /cd-panel-content -->
+                     </div>
+                     <!-- /cd-panel-container -->
+                  </div>
+                  <!-- /cd-panel -->   
+               </div>
+               <!-- /col-md-7 -->
+            </div>
+            <!-- /row -->		  
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- Section ends -->
+      <!-- Section Brands -->
+      <section id="brands" class="home-section">
+         <div class="col-lg-8 offset-lg-2">
+            <!-- Section heading -->
+            <div class="section-heading">
+               <h2>Бренды, с которыми мы работаем</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container text-center">
+            <div class="row">
+               <!-- Brand 1 -->
+               <div class="col-lg-3 res-margin">
+                  <div class="card card-sm wow fadeInLeft">
+                     <a href="#"><img src="{% static 'img/client1.png' %}" alt="client" class="mx-auto d-block img-fluid"></a>
+                  </div>
+               </div>
+               <!-- Brand 2 -->
+               <div class="col-lg-3 res-margin">
+                  <div class="card card-sm wow fadeInLeft">
+                     <a href="#"><img src="{% static 'img/client2.png' %}" alt="client" class="mx-auto d-block img-fluid"></a>
+                  </div>
+               </div>
+               <!-- Brand 3 -->
+               <div class="col-lg-3 res-margin">
+                  <div class="card card-sm wow fadeInRight">
+                     <a href="#"><img src="{% static 'img/client3.png' %}" alt="client" class="mx-auto d-block img-fluid"></a>
+                  </div>
+               </div>
+               <!-- Brand 4 -->
+               <div class="col-lg-3">
+                  <div class="card card-sm wow fadeInRight">
+                     <a href="#"><img src="{% static 'img/client4.png' %}" alt="client" class="mx-auto d-block img-fluid"></a>
+                  </div>
+               </div>
+            </div>
+            <!-- /row -->		  
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- Section ends --> 
+      <!-- Section Contact -->
+      <section id="contact" class="home-section">
+         <div class="col-xl-8 offset-xl-2">
+            <!-- Section heading -->
+            <div class="section-heading">
+               <h2>Связаться</h2>
+               <div class="hr"></div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="margin col-xl-4 wow fadeInLeft" data-wow-delay="0.2s">
+                  <!-- Contact info -->
+                  {% for contact in contact %}
+                  <h4>инфа</h4>
+                  <p>Свяжитесь с нами для получения дополнительной информации:</p>
+                  {% comment %} {% for contact in contact %} {% endcomment %}
+                  <p><i class="fa fa-envelope"></i>{{contact.email}}<a href="mailto:youremailaddress"></a> или позвоните сюда</p>
+                  <p><i class="fa fa-phone"></i>{{contact.number}}</p>
+                  {% comment %} {% endfor %}    {% endcomment %}
+                  <!-- Adress info -->
+                  <h4>местоположение & время</h4>
+                  <p><i class="fa fa-map-marker"></i>гикс.</p>
+                  <p><i class="fa fa-clock-o"></i>Открыт с 9 утра до 10 вечера по будням и с 9 утра до 14:00 по выходным..</p>
+                  {% endfor %}   
+               </div>
+               <div class="col-xl-7 offset-xl-1 wow fadeInLeft" data-wow-delay="0.2s">
+                  <!-- Contact form -->
+                  <div class="form-style" id="contact_form">
+                     <div id="contact_results"></div>
+                     <div class="form-group">
+                        <input type="text" name="name" class="form-control input-field" placeholder="Name" required>
+                     </div>
+                     <div class="form-group">
+                        <input type="email" name="email" class="form-control input-field"  placeholder="Email ID" required>
+                     </div>
+                     <div class="form-group">
+                        <input type="text" name="subject" class="form-control input-field" placeholder="Subject" required>
+                     </div>
+                     <div class="form-group">
+                        <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Enter your message" required></textarea>
+                     </div>
+                     <div class="form-group">
+                        <button type="submit" id="submit_btn" value="Submit" class="btn btn-primary float-end">Отправить сообщение</button>
+                     </div>
+                  </div>
+                  <!--/Contact form -->	
+               </div>
+               <!-- /col-->
+            </div>
+            <!-- /row -->		  
+         </div>
+         <!-- /container-->	   
+      </section>
+      <!--Map -->
+      <div class="wow fadeInTop" data-wow-delay="0.2s">
+         <div id="map-canvas"></div>
+      </div>
+      <!-- Section ends -->
+      <!-- Footer -->	
+      <footer>
+         <div class="container">
+            <div class="row wow fadeInUp" data-wow-delay="0.2s">
+               <div class="col-sm-6 col-md-4">
+                  <!-- Social Media icons -->	
+                  <ul class="social-media">
+                     <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                     <li><a  title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a  title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+               </div>
+               <!-- Bottom Credits -->
+               <div class="col-sm-6 offset-md-5 col-md-3 text-center">
+                  <p>COPYRIGHT © 2015-2023 <a href="https://www.ingridkuhn.com">Ingrid Kuhn</a></p>
+               </div>
+            </div>
+            <!-- /row-->
+         </div>
+         <!-- /container -->
+         <!-- Go To Top Link -->
+         <div class="d-none d-lg-block">
+            <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+         </div>
+      </footer>
+      <!-- /footer ends -->
+      <!-- Core JavaScript Files -->
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/main.js' %}"></script>
+      <!-- Plugins -->
+      <script src="{% static 'js/plugins.js' %}"></script>
+      <!-- Counter   -->
+      <script src="{% static 'js/numscroller.js' %}"></script>
+      <!-- Contact form	 -->  
+      <script src="{% static 'js/contact.js' %}"></script>
+	     <!-- Switcher -->
+	<script src="switcher/js/dmss.js"></script>
+   </body>
+</html>
